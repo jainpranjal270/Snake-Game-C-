@@ -1,1 +1,1 @@
-# Snake-Game-C-
+Simple Snake Game
