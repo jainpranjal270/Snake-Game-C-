@@ -4,8 +4,8 @@
 using namespace std;
 
 bool GameOver;
-const int Width = 20;
-const int Height = 20;
+const int Width = 35;
+const int Height = 35;
 int HeadX, HeadY, FruitX, FruitY, score;
 enum direction { STOP = 0, LEFT, RIGHT, UP, DOWN};
 direction dir;
@@ -154,7 +154,7 @@ int main(){
 		Draw();
 		Input();
 		Logic();
-		Sleep(10);
+		// Sleep(0);
 	}
 	return 0;
 }
